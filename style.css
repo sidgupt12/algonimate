@@ -1,0 +1,132 @@
+/* body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    transition: 5ms ease-in;
+} */
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: 1; 
+
+  }
+
+
+
+.head{
+    
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 0px;
+
+}
+
+.social{
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 9px;
+    
+}
+
+.socialbtn{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 190px;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+}
+
+.socialbtn:hover{
+    background-color: #ff7300;
+    transition: 0.5ms ease-in;
+}
+
+.socialbtn:active{
+    background-color: black;
+    transition: 15ms ease-in;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+    text-align: center;
+
+}
+
+.algolearn{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.tagline, .ask{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.ask{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: white;
+    /* background-color: rgba(255, 255, 255, 0.329); */
+    background-color: rgba(66, 66, 66, 0.388);
+
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    /* padding-top: 8px; */
+    color: #ff6600;
+    
+
+}
+
+
+
+.algobtn{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#algos{
+    flex-basis: 110px;
+}
